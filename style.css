@@ -1,0 +1,191 @@
+p,footer{
+    color: rgb(49, 54, 63);
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-body-tertiary{
+    background-color: rgb(49, 54, 63) !important;
+    border:0 !important;
+}
+
+.link-body-emphasis{
+    color: rgb(238, 238, 238) !important;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.visha-background{
+    background-image: url(./images/visha_bg.jpg);
+    background-size: cover;
+    height: 585px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visha-background h1{
+    color: white !important;  
+    font-size: 5rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 200 !important;
+    font-style: normal;
+}
+
+.visha-background p{
+    color: rgb(238, 238, 238);
+}
+
+h2,h3{
+    color: rgb(80, 140, 155);
+    font-family: "Prata", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.about-me-section{
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: rgb(238, 238, 238);
+}
+
+.my-image{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+#da_photo{
+    border-radius: 50%;
+    height: 250px;
+    border: 5px solid;
+    border-color: white;
+}
+
+.my-description{
+    width: 60%;
+    height: 100%;
+    padding-left: 8rem;
+    padding-right: 12rem;
+    font-size: 1.2rem;
+}
+
+#projects{
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    background-color: rgb(80, 140, 155);
+}
+
+#project-heading{
+    text-align:end;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#project-heading h2{
+    color: rgb(49, 54, 63);
+}
+
+.projects-section{
+    display: flex;
+    gap: 40px;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    flex-wrap: wrap;
+}
+
+.project-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    text-align: center;
+}
+
+.project-images img{
+    border: 5px solid rgb(238, 238, 238) ;
+    padding: 5px;
+}
+
+.project-images h3{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: rgb(238, 238, 238);
+    text-decoration: underline;
+}
+
+.project-images p{
+    font-size: small;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: rgb(238, 238, 238);
+}
+
+.get-in-touch-section{
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    background-color: rgb(238, 238, 238);
+}
+
+.extra{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.svg-instagram{
+    color: rgb(49, 54, 63);
+}
+
+footer{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(49, 54, 63);
+    color: rgb(238, 238, 238);
+}
+
+@media (max-width: 1024px) {
+    *{
+        text-align: center;
+    }
+
+    .visha-background{
+        background-image: url(./images/visha_bg_mobile.jpg);
+    }
+    
+    #da_photo{
+        height: 150px;
+    }
+
+    .about-me-section{
+        flex-direction: column;
+    }
+
+    .my-description{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 3rem;
+    }
+  }
+  
