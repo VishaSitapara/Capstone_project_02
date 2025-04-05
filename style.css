@@ -178,6 +178,10 @@ footer{
         height: 150px;
     }
 
+    .my-image{
+        padding-left: 0;
+    }
+
     .about-me-section{
         flex-direction: column;
     }
